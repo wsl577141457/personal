@@ -25,7 +25,7 @@ public interface TeacherGDao extends Mapper<TeacherGroup> {
     @Update("update tb_teachergroup set chooseNum = chooseNum + 1 where id = #{id}")
     void addStudent(Integer id);
 
-    @Select("select * from tb_teachergroup where id = #{id}")
+    @Select("select * from tb_teachergroup where id = #{id} for update")
     @Results(id = "teacherGMap2",value = {
             @Result(id = true,column = "id",property = "id"),
             @Result(column = "maxNum",property = "maxNum"),

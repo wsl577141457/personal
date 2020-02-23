@@ -58,25 +58,30 @@ public class TeacherGServiceImpl implements ITeacherGService {
 
     @Override
     public String join(String joinStr){
-        joinStr = joinStr.substring(1,joinStr.length()-1);
-        joinStr = joinStr.replace("\\\"","\"");
-        JSONObject jsonObject = JSONObject.parseObject(joinStr);
-        String idStr = jsonObject.getString("id");
-        String username = jsonObject.getString("username");
-        Integer gid = Integer.parseInt(idStr);
-        TeacherGroup teacherGroup = dao.selectById(gid);
-        if(teacherGroup.getChooseNum() > teacherGroup.getMaxNum() || teacherGroup.getChooseNum() == teacherGroup.getMaxNum()){
-            return "该老师分组人数已满！";
+        try {
+            joinStr = joinStr.substring(1,joinStr.length()-1);
+            joinStr = joinStr.replace("\\\"","\"");
+            JSONObject jsonObject = JSONObject.parseObject(joinStr);
+            String idStr = jsonObject.getString("id");
+            String username = jsonObject.getString("username");
+            Integer gid = Integer.parseInt(idStr);
+            StudentAccount sa = studentAccountDao.findByUsername(username);
+            Integer sid = sa.getId();
+            Integer testTid = studentMsgDao.findTidBySid(sid);
+            if(testTid != null){
+                return "你已经选择了分组！";
+            }
+            TeacherGroup teacherGroup = dao.selectById(gid);
+            if(teacherGroup.getChooseNum() > teacherGroup.getMaxNum() || teacherGroup.getChooseNum() == teacherGroup.getMaxNum()){
+                return "该老师分组人数已满！";
+            }
+            Integer tid = teacherGroup.getTeacherAccount().getId();
+            dao.addStudent(gid);
+            studentMsgDao.addGroup(tid,sid);
+            return "加入分组成功！";
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
         }
-        dao.addStudent(gid);
-        Integer tid = teacherGroup.getTeacherAccount().getId();
-        StudentAccount sa = studentAccountDao.findByUsername(username);
-        Integer sid = sa.getId();
-        Integer testTid = studentMsgDao.findTidBySid(sid);
-        if(testTid != null){
-            return "你已经选择了分组！";
-        }
-        studentMsgDao.addGroup(tid,sid);
-        return "加入分组成功！";
+        return "目前选择该分组的人数较多，请稍后再试！";
     }
 }

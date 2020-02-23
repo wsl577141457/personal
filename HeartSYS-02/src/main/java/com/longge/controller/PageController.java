@@ -11,49 +11,49 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class PageController {
 
-    @RequestMapping("/toChoosetPage")
+    @RequestMapping("/studentPage/toChoosetPage")
     public String toChooset(HttpServletRequest req){
         String path = req.getServletContext().getContextPath();
         return path + "/studentPage/chooset";
     }
 
-    @RequestMapping("/toAskteacherPage")
+    @RequestMapping("/studentPage/toAskteacherPage")
     public String toAskteacher(HttpServletRequest req){
         String path = req.getServletContext().getContextPath();
         return path + "/studentPage/askteacher";
     }
 
-    @RequestMapping("/toTestPage")
+    @RequestMapping("/studentPage/toTestPage")
     public String toTest(HttpServletRequest req){
         String path = req.getServletContext().getContextPath();
         return path + "/studentPage/test";
     }
 
-    @RequestMapping("/toCheckstudentsPage")
+    @RequestMapping("/teacherPage/toCheckstudentsPage")
     public String toCheckstudents(HttpServletRequest req){
         String path = req.getServletContext().getContextPath();
         return path + "/teacherPage/checkstudents";
     }
 
-    @RequestMapping("/toCountPage")
+    @RequestMapping("/teacherPage/toCountPage")
     public String toCount(HttpServletRequest req){
         String path = req.getServletContext().getContextPath();
         return path + "/teacherPage/count";
     }
 
-    @RequestMapping("/toAccountPage")
+    @RequestMapping("/adminPage/toAccountPage")
     public String toAccount(HttpServletRequest req){
         String path = req.getServletContext().getContextPath();
         return path + "/adminPage/account";
     }
 
-    @RequestMapping("/toGroupPage")
+    @RequestMapping("/adminPage/toGroupPage")
     public String toGroup(HttpServletRequest req){
         String path = req.getServletContext().getContextPath();
         return path + "/adminPage/group";
     }
 
-    @RequestMapping("/toQuestionsPage")
+    @RequestMapping("/adminPage/toQuestionsPage")
     public String toQuestions(HttpServletRequest req){
         String path = req.getServletContext().getContextPath();
         return path + "/adminPage/questions";

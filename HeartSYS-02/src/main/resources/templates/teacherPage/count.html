@@ -116,19 +116,19 @@
                     <ul class="treeview-menu">
 
                         <li id="admin-login">
-                            <a href="/toTestPage">
+                            <a href="/studentPage/toTestPage">
                                 <i class="fa fa-circle-o"></i> 心理测试
                             </a>
                         </li>
 
                         <li id="admin-register">
-                            <a href="/toAskteacherPage">
+                            <a href="/studentPage/toAskteacherPage">
                                 <i class="fa fa-circle-o"></i> 老师咨询
                             </a>
                         </li>
 
                         <li id="admin-404">
-                            <a href="/toChoosetPage">
+                            <a href="/studentPage/toChoosetPage">
                                 <i class="fa fa-circle-o"></i> 选择老师分组
                             </a>
                         </li>
@@ -147,13 +147,13 @@
                     <ul class="treeview-menu">
 
                         <li id="charts-chartjs">
-                            <a href="/toCheckstudentsPage">
+                            <a href="/teacherPage/toCheckstudentsPage">
                                 <i class="fa fa-circle-o"></i> 查看学生
                             </a>
                         </li>
 
                         <li id="charts-morris">
-                            <a href="/toCountPage">
+                            <a href="/teacherPage/toCountPage">
                                 <i class="fa fa-circle-o"></i> 学生心理情况统计
                             </a>
                         </li>
@@ -172,19 +172,19 @@
                     <ul class="treeview-menu">
 
                         <li id="elements-general">
-                            <a href="/toAccountPage">
+                            <a href="/adminPage/toAccountPage">
                                 <i class="fa fa-circle-o"></i> 账号管理
                             </a>
                         </li>
 
                         <li id="elements-icons">
-                            <a href="/toGroupPage">
+                            <a href="/adminPage/toGroupPage">
                                 <i class="fa fa-circle-o"></i> 老师分组管理
                             </a>
                         </li>
 
                         <li id="elements-buttons">
-                            <a href="/toQuestionsPage">
+                            <a href="/adminPage/toQuestionsPage">
                                 <i class="fa fa-circle-o"></i> 测试题目管理
                             </a>
                         </li>
@@ -331,7 +331,7 @@
 
         $.ajax({
             type:'get',
-            url:'count',
+            url:'/count',
             dataType:'json',
             success:function (data) {
                 var pieChartCanvas = $("#pieChart").get(0).getContext("2d");

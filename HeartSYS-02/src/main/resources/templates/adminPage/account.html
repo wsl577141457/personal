@@ -560,7 +560,7 @@
         var getId = tr.find('td:eq(0)').text();
         var getUsername = tr.find('td:eq(1)').html();
         var getPassword = tr.find('td:eq(2)').html();
-        var getName = tr.find('td:eq(2)').html();
+        var getName = tr.find('td:eq(3)').html();
         $("#updateusername").val(getUsername);
         $("#updatepassword").val(getPassword);
         $("#updatename").val(getName);
@@ -654,8 +654,8 @@
                         adminGet();
                         document.getElementById("chooseRole")[2].selected = true;
                     },
-                    error: function () {
-                        alert("save出错！");
+                    error: function (e) {
+                        alert(e.responseText);
                     }
                 });
             } else if (role == '1') {
@@ -670,8 +670,8 @@
                         teacherGet();
                         document.getElementById("chooseRole")[1].selected = true;
                     },
-                    error: function () {
-                        alert("save出错！");
+                    error: function (e) {
+                        alert(e.responseText);
                     }
                 });
             } else if (role == '2') {

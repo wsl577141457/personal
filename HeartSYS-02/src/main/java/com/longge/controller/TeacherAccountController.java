@@ -32,10 +32,10 @@ public class TeacherAccountController {
     }
 
     @PostMapping
-    public ResponseEntity addTeacherAccount(@RequestBody String teacherAccountStr){
+    public ResponseEntity<TeacherAccount> addTeacherAccount(@RequestBody String teacherAccountStr){
         try {
             TeacherAccount teacherAccount = teacherAccountService.addTeacherAccount(teacherAccountStr);
-            return ResponseEntity.ok().build();
+            return ResponseEntity.ok(teacherAccount);
         } catch (Exception e) {
             e.printStackTrace();
         }

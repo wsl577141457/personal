@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a464724-ec55-4aca-9ed5-d29efd84300b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-01/controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-01/dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-01/pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-01/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-03/src/main/java/com/longge/service/impl/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-03/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/NSSMLX_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NSSMLX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ConfigServer/ConfigServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ConfigServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ConfigServer/src/main/java/com/longge/ConfigServerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ConfigServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka1/Eureka1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka1/src/main/java/com/longge/Eureka1Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka2/Eureka2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka2/src/main/java/com/longge/Eureka2Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/GateWay/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/GateWay/src/main/java/com/longge/GateWayStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/GateWay/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/GateWay/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/ItemModualStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/pojo/JdbcConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/tool/HttpTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/web/controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/OrderModuel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/Client/ItemFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/Client/fallback/ItemServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/OrderModuelStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/pojo/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/service/ItemService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/src/main/java/adsf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/src/test/java/fda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest1/src/main/java/com/longge/ReceiveMain4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest1/src/main/java/com/longge/ReceiveMain5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest1/src/main/java/com/longge/SendMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/main/java/com/longge/RabbitStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/main/java/com/longge/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/main/java/com/longge/sandr/Receive1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/main/java/com/longge/sandr/Sender1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/test/java/com/longge/testMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/footer_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/guonei_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/hot_tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/hotel_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangwai_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangxuan_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangxuan_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangxuan_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangxuan_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jingxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/top_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/travel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/TestEnum/src/Httphh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/TestEnum/src/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/TestEnum/src/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-browser/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-core/hh-security-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-core/src/main/java/com/hh/core/properties/BrowserProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-core/src/main/java/com/hh/core/properties/SecurityProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/MyBrand.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/MyBrandForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-api-gateway/src/main/java/com/ly/LyApiGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-api-gateway/src/main/java/com/ly/gateway/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-common/src/main/java/com/leyou/common/pojo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/LyItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/dao/BrandDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-registry/src/main/java/com/leyou/LyRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-registry/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/LyUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/config/FastClientImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/test/java/com/leyou/test/FdfsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/src/main/java/com/hh/controller/Suibian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmZHAL/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/src/abcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/suibiannong.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-demo/vue-demo01/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/src/main/java/com/hh/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/src/main/java/com/hh/controller/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/src/main/resources/templates/crud.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/src/main/resources/templates/crud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-crud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-crud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/target/classes/templates/crud.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/target/classes/templates/crud.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../ruanjian/Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\study\ruanjian\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="294" />
+    <option name="y" value="112" />
+    <option name="width" value="1300" />
+    <option name="height" value="807" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NSSMLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NSSMLX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NSSMLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NSSMLX" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.0.8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.8.5.37" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="NSSMLX:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/NSSMLX_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="NSSMLX:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a464724-ec55-4aca-9ed5-d29efd84300b" name="Default Changelist" comment="" />
+      <created>1585223333375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585223333375</updated>
+      <workItem from="1585223341987" duration="422000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="422000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

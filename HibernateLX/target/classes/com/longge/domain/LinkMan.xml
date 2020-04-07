@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <!--  配置类和表对应
+            class标签
+            name属性:实体类全路径
+            table属性:数据库表名称
+      -->
+    <class name="com.longge.domain.LinkMan" table="t_linkman">
+        <!--   配置实体类id和表id     -->
+        <id name="id" column="id">
+            <!--   设置数据库id增长策略
+                    native:主键自动增长
+                   -->
+            <generator class="native"></generator>
+        </id>
+        <!--配置其它字段和属性-->
+        <property name="name" column="name"></property>
+<!--        配置联系人所属客户
+            name:实体类里面的名字
+            class:多的8说
+            column:外键
+            -->
+        <many-to-one name="customer" class="com.longge.domain.Customer" column="clid"></many-to-one>
+    </class>
+</hibernate-mapping>

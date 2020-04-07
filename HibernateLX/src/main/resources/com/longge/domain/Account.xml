@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <!--  配置类和表对应
+            class标签
+            name属性:实体类全路径
+            table属性:数据库表名称
+      -->
+    <class name="com.longge.domain.Account" table="t_account">
+        <!--   配置实体类id和表id     -->
+        <id name="id" column="id">
+            <!--   设置数据库id增长策略
+                    native:主键自动增长
+                   -->
+            <generator class="native"></generator>
+        </id>
+        <!--配置其它字段和属性-->
+        <property name="username" column="username"></property>
+        <property name="password" column="password"></property>
+<!--        表示所有角色
+            name:表示实体类里面set集合的名字
+            inverse:放弃维护外键，一般在一对多中的一配置，可以提高性能
+            table:中间表名称-->
+        <set name="roles" table="account_role" cascade="save-update,delete">
+<!--            配置当前映射文件在中间表中的名称，和一对多不一样-->
+            <key column="accountid"></key>
+<!--            column:多对多的另一个多（此处指角色）在第三张表中的外键-->
+            <many-to-many class="com.longge.domain.Role" column="roleid"></many-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="222c0ca0-fbe0-434a-bf51-cb4fcc44a8f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-01/controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-01/dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-01/pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-01/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-02/src/main/java/com/longge/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-03/src/main/java/com/longge/service/impl/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HeartSYS-03/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longge/dao/HibernateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longge/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longge/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longge/domain/LinkMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longge/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longge/utils/HibernateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/longge/domain/Account.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/longge/domain/Customer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/longge/domain/LinkMan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/longge/domain/Role.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hibernate/Hibernate7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDeml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemol2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateSpringBoot/src/main/java/com/longge/HibernateDemoStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateSpringBoot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX/.idea/artifacts/NSSMLX_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX/NSSMLX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/NSSMLX2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/src/main/java/com/longge/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/src/main/java/com/longge/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/src/main/java/com/longge/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/src/main/java/com/longge/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSSMLX2/src/main/webapp/pages/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ConfigServer/ConfigServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ConfigServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ConfigServer/src/main/java/com/longge/ConfigServerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ConfigServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka1/Eureka1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka1/src/main/java/com/longge/Eureka1Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka2/Eureka2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka2/src/main/java/com/longge/Eureka2Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/Eureka2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/GateWay/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/GateWay/src/main/java/com/longge/GateWayStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/GateWay/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/GateWay/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/ItemModualStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/pojo/JdbcConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/tool/HttpTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/java/com/longge/web/controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/ItemModel2/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/OrderModuel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/Client/ItemFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/Client/fallback/ItemServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/OrderModuelStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/pojo/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/service/ItemService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/java/com/longge/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/OrderModuel/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/src/main/java/adsf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSpringCloudTest/src/test/java/fda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest1/src/main/java/com/longge/ReceiveMain4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest1/src/main/java/com/longge/ReceiveMain5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest1/src/main/java/com/longge/SendMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/main/java/com/longge/RabbitStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/main/java/com/longge/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/main/java/com/longge/sandr/Receive1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/main/java/com/longge/sandr/Sender1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQTest2/src/test/java/com/longge/testMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/SSHLX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/src/main/java/com/longge/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/src/main/java/com/longge/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/src/main/java/com/longge/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/src/main/java/com/longge/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/src/main/resources/com/longge/domain/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHLX/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/footer_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/guonei_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/hot_tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/hotel_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/icon_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangwai_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangxuan_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangxuan_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangxuan_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jiangxuan_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/jingxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/img/top_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/BootstrapLX/src/travel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/TestEnum/src/Httphh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/TestEnum/src/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/TestEnum/src/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/src/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WanWan/src/testMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-browser/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-core/hh-security-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-core/src/main/java/com/hh/core/properties/BrowserProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-core/src/main/java/com/hh/core/properties/SecurityProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/hh-security-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hh-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/MyBrand.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/MyBrandForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-api-gateway/src/main/java/com/ly/LyApiGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-api-gateway/src/main/java/com/ly/gateway/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-common/src/main/java/com/leyou/common/pojo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/LyItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/dao/BrandDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/ly-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-item/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-registry/src/main/java/com/leyou/LyRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-registry/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/LyUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/config/FastClientImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/java/com/leyou/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/ly-upload/src/test/java/com/leyou/test/FdfsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/snddb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/src/main/java/com/longge/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/src/main/java/com/longge/Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/src/main/java/com/longge/web/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snddb/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/src/main/java/com/hh/controller/Suibian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmZHAL/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/src/abcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../suibiannong/suibiannong.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-demo/vue-demo01/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeartSYS-02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HeartSYS-02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/src/main/java/com/hh/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/src/main/java/com/hh/controller/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/src/main/resources/templates/crud.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sping-boot-demo-team1-wushaolong/src/main/resources/templates/crud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-crud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-crud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/target/classes/templates/crud.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo-team1-wushaolong/target/classes/templates/crud.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/longge/domain/Customer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/longge/domain/LinkMan.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/longge/domain/Role.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/longge/domain/Account.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/longge/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/User.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longge/dao/HibernateDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDeml.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemol2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longge/domain/LinkMan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longge/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/longge/domain/LinkMan.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longge/domain/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longge/domain/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/longge/domain/Role.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longge/utils/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/longge/domain/Account.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo4.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo5.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo6.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Hibernate/Hibernate7.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/longge/domain/Customer.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../ruanjian/Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\study\ruanjian\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="294" />
+    <option name="y" value="112" />
+    <option name="width" value="1300" />
+    <option name="height" value="807" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="longge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="longge" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="longge" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="longge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="longge" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernateLX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernateLX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\javaworkspace\HibernateLX\src\main\resources\com\longge\domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\javaworkspace\HibernateLX\src\main\resources\com\longge\domain" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.HibernateDemo5.testSelect7">
+    <configuration name="HibernateDemo4.saveManyToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HibernateLX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hibernate" />
+      <option name="MAIN_CLASS_NAME" value="Hibernate.HibernateDemo4" />
+      <option name="METHOD_NAME" value="saveManyToMany" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateDemo5.testSelect1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HibernateLX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hibernate" />
+      <option name="MAIN_CLASS_NAME" value="Hibernate.HibernateDemo5" />
+      <option name="METHOD_NAME" value="testSelect1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateDemo5.testSelect2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HibernateLX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hibernate" />
+      <option name="MAIN_CLASS_NAME" value="Hibernate.HibernateDemo5" />
+      <option name="METHOD_NAME" value="testSelect2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateDemo5.testSelect3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HibernateLX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hibernate" />
+      <option name="MAIN_CLASS_NAME" value="Hibernate.HibernateDemo5" />
+      <option name="METHOD_NAME" value="testSelect3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateDemo5.testSelect7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HibernateLX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hibernate" />
+      <option name="MAIN_CLASS_NAME" value="Hibernate.HibernateDemo5" />
+      <option name="METHOD_NAME" value="testSelect7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HibernateDemo5.testSelect7" />
+        <item itemvalue="JUnit.HibernateDemo5.testSelect3" />
+        <item itemvalue="JUnit.HibernateDemo5.testSelect2" />
+        <item itemvalue="JUnit.HibernateDemo5.testSelect1" />
+        <item itemvalue="JUnit.HibernateDemo4.saveManyToMany" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="222c0ca0-fbe0-434a-bf51-cb4fcc44a8f4" name="Default Changelist" comment="" />
+      <created>1585985412642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585985412642</updated>
+      <workItem from="1585985420085" duration="10430000" />
+      <workItem from="1586062074338" duration="17066000" />
+      <workItem from="1586154615356" duration="5629000" />
+      <workItem from="1586179096172" duration="1074000" />
+    </task>
+    <task id="LOCAL-00001" summary="第二次提交hibernate练习">
+      <created>1585991754965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585991754965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HibernateDemo4_saveManyToMany - 2020.04.05 at 16h 34m 45s.xml">
+      <configuration name="HibernateDemo4.saveManyToMany" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateDemo4_aaa2 - 2020.04.05 at 16h 46m 20s.xml">
+      <configuration name="HibernateDemo4.aaa2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateDemo4_aaa2 - 2020.04.05 at 16h 48m 04s.xml">
+      <configuration name="HibernateDemo4.aaa2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateDemo4_saveManyToMany - 2020.04.05 at 19h 48m 40s.xml">
+      <configuration name="HibernateDemo4.saveManyToMany" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateDemo5_testSelect1 - 2020.04.05 at 20h 35m 16s.xml">
+      <configuration name="HibernateDemo5.testSelect1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateDemo5_testSelect2 - 2020.04.05 at 20h 41m 29s.xml">
+      <configuration name="HibernateDemo5.testSelect2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateDemo5_testSelect3 - 2020.04.05 at 21h 39m 29s.xml">
+      <configuration name="HibernateDemo5.testSelect3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateDemo5_testSelect3 - 2020.04.05 at 21h 39m 59s.xml">
+      <configuration name="HibernateDemo5.testSelect3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateDemo5_testSelect3 - 2020.04.05 at 21h 40m 22s.xml">
+      <configuration name="HibernateDemo5.testSelect3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateDemo5_testSelect7 - 2020.04.05 at 21h 59m 06s.xml">
+      <configuration name="HibernateDemo5.testSelect7" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34199000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27440348" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Problems" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第二次提交hibernate练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交hibernate练习" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemol2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1208">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#9#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Hibernate/HibernateDeml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longge/domain/LinkMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longge/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longge/utils/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longge/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longge/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="192" column="51" selection-start-line="192" selection-start-column="51" selection-end-line="192" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#13#1" expanded="true" />
+            <element signature="e#0#39#1" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longge/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#36#1" expanded="true" />
+            <element signature="e#0#39#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Hibernate/Hibernate7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longge/dao/HibernateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2037">
+          <caret line="105" column="28" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/longge/domain/User.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Hibernate/HibernateDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/longge/domain/Customer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/longge/domain/Role.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/longge/domain/Account.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/longge/domain/LinkMan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HibernateLX</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
